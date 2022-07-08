@@ -1,0 +1,16 @@
+/* start header */
+   /* start nav bar */
+        header hr{
+            max-width: 1010px;
+        }
+    /* end nav bar */
+    .landing-parag{
+        height: 328px;
+        margin-top: -164px;
+        bottom: 50%;
+    }
+    .landing-parag p,
+    .landing-parag h2{
+        margin-left: 50px;
+    }
+/* end header */

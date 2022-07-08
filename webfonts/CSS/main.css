@@ -1,0 +1,79 @@
+/* start variables */
+    :root{
+        --color: #19c8fa;
+    }
+/* end variables */
+/* start global rules */
+    body{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+/* end global rules */
+/* start header */
+    header{
+        height: 100vh;
+        background-image: url(../media/landing.jpg);
+        background-size: cover;
+    }
+    /* start nav bar */
+        nav{
+            padding-top: 15px;
+        }
+        header hr{
+            margin-top: 0px;
+            border: none;
+            height: 2px;
+            background-color: white;
+            width: 100%;
+        }
+        nav .fa-search{
+            color: white;
+            padding-left: 20px;
+            margin-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-left: white 1.5px solid;
+        }
+        nav li{
+            list-style-type: none;
+            padding: 7px;
+            position: relative;
+        }
+        nav li a{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            transition-duration: 0.5s;
+        }
+        nav ul .kl,
+        nav ul li:hover a {
+            color: var(--color);
+        }
+    /* end nav bar */
+    header{
+        position: relative;
+    }
+    .landing{
+        color: white;
+    }
+    .landing-parag{
+        background-color: rgba(15, 116, 143, 0.7);
+        width: 50%;
+        position: absolute;
+        padding: 50px;
+    }
+    .landing-parag h2{
+        position: relative;
+    }
+    .landing-parag h2,
+    .landing-parag p{
+        line-height: 30px;
+    }
+    .fa-angle-left{
+        position: absolute;
+        top: 50%;
+        left: 34px;
+        margin-top: -16px;
+        margin-right: 20px;
+    }
+/* end header */

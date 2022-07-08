@@ -1,0 +1,42 @@
+/* start container */
+    .container{
+        width: 600px;
+    }
+/* end container */
+/* start features */
+    section .container{
+        grid-template-columns: repeat(2, 250px);
+    }
+/* end features */
+/* start service */
+    .Services .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .Services-1{
+        grid-column: 1/5;
+    }
+    .child-1-services-2,
+    .child-2-services-2,
+    .child-1-services-3,
+    .child-2-services-3{
+        width: 300px;
+    }
+    .Services-3{
+        padding-left: 20px;
+    }
+/* end service */
+/* start portfolio */
+    article .content{
+        grid-template-columns: repeat(2, 340px);
+    }
+/* end portfolio */
+/* start about */
+    .inside {
+        flex-direction: column;
+        text-align: center;
+    }
+    .inside img {
+        margin-bottom: 70px;
+    }
+/* end about */

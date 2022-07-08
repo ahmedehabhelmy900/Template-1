@@ -1,0 +1,88 @@
+/* start container */
+    .container{
+        width: 1050px;
+    }
+/* end container */
+/* start features */
+    section .container{
+        grid-template-columns: repeat(3, 250px);
+    }
+/* end features */
+/* start services */
+    .Services .container{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        padding-bottom: 50px;
+        position: relative;
+    }
+    .Services-1{
+        grid-column: 1/6;
+    }
+    .Services-4{
+        display: block;
+    }
+    .services-img-4{
+        position: absolute;
+        right: 115px;
+        top: 360px !important;
+        z-index: 1;
+        transform: scale(3, 9);
+        -webkit-transform: scale(3, 9);
+        -moz-transform: scale(3, 9);
+        -ms-transform: scale(3, 9);
+        -o-transform: scale(3, 9);
+}
+    .services-4-child{
+        background-color: #2c4755;
+        width: 80px;
+        height: 350px;
+        position: absolute;
+        right: 0px;
+        top: 200px;
+    }
+/* end services */
+/* start portfolio */
+    article .content{
+        grid-template-columns: repeat(3, 340px);
+    }
+/* end portfolio */
+/* start about */
+    .inside{
+        flex-direction: row;
+    }
+    .text {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding-left: 50px;
+    }
+    .inside hr {
+        margin-left: 15px;
+    }
+    .text::before{
+        content: "";
+        background-color: white;
+        width: 100px;
+        height: 455px;
+        position: absolute;
+        left: -435px;
+        top: -87px;
+    }
+    .text::after{
+        content: "";
+        background-color: transparent;
+        border-bottom: aqua 80px solid;
+        border-left: aqua 80px solid;
+        width: 120px;
+        height: 300px;
+        position: absolute;
+        left: -210px;
+        top: -87px;
+    }
+    .about img {
+        margin-bottom: 0%;
+        z-index: 1;
+    }
+/* end about */

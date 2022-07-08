@@ -1,0 +1,32 @@
+/* start header */
+    /* start nav bar */
+        nav .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul{
+            display: flex;
+        }
+        header hr{
+            width: calc(100% + 37.5px);
+        }
+        .fa-bars{
+            display: none;
+        }
+        nav li:hover::before,
+        nav ul .kl::before{
+            content: "";
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            bottom: -18px;
+            left: 0px;
+            background-color: var(--color);
+            transition-duration: 0.5s;
+        }
+    /* end nav bar */
+    .landing-parag{
+        margin-top: 30px;
+    }
+/* end header */
